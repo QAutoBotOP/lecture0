@@ -32,4 +32,4 @@ app = Flask(__name__)
 @app.route("/")
 def index():
     names = ["Aelis", "Benedict", "Charles"]
-   return render_template("index.html", names=names)
+    return render_template("index.html", names=names)
